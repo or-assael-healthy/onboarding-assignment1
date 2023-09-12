@@ -11,5 +11,7 @@ The logger has 4 levels of logging:
 - WARNING
 - ERROR
 
+When logging to a file, need to use the logging as an asynchronous function and use await before the function.
+
 The logger comes with a test suite that tests the logger's functionality.
 
