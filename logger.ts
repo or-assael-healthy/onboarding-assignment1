@@ -1,7 +1,8 @@
-import { once } from "events";
 import * as fs from "fs";
-import * as util from "util";
 import * as stream from "stream";
+import * as util from "util";
+
+import { once } from "events";
 
 enum LogDestination {
   Console,
